@@ -3,30 +3,45 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
         <title>Ramon Barros</title>
     </head>
-    <body class="container">
 
-        <header>
-            <h1>Student Bio</h1>
+    <body>
+
+        <header class="header">
+            <h1>Ramon <span class="barros">Barros</span></h1>
+            <div>
+               <ul>
+                   <li>
+                        <a href="#aboutMe" >About Me</a>      
+                   </li>
+                   <li>
+                        <a href="#contact" >Contact</a> 
+                   </li>
+               </ul> 
+            </div>
         </header>
         
-        <section>
+        <section class="floatLeft">
 
-            <h2>Ramon Barros</h2>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAJ1BMVEXg4OD////h4eHa2trn5+fr6+vk5OT8/Pzd3d339/f19fXp6enz8/MLt2qjAAABbElEQVR4nO3ZwY6CMBRAUagILc7/f+8AoqIJZScx75yYjIld1JumdGrTAAAAAAAAAAAAAAAAAAAAAAAAAAD8plyVzp7e96XrkWhR8q09NHRnz/K70vyd60Wm19mz/K6+bdOlbh5y9jS/qmvboyHhmjy+cHftcmVIqChrkzJtHKUyJF6TXJbd9G9/SLwm/fqIefskbYdoMh1bypC3Q+I1adaTyDNDHjeHkpBNUr4uTV5PnmV/KdshJ03vFPd1cunKUPpnkvG+bsprSMAmTZ7Oq2uStD6FnlGiNtnI4+t/nZKb2E3uf1+r5LFSAjdJwzC/G9v2I0rcJmm+E8jvq2SW4jZJyyVKGT+TRG6ye68Utknav2qL2qSSJGyTfj+JJprMliadJlv3Pfa2L+qZrfbLaMwmfX3E/EthqCRNno/0ddsLuBBy7Znz3GdjNZn2ku7IJViSY1kRAAAAAAAAAAAAAAAAAAAAAAAAAOA3/QPqvwvIPM53tQAAAABJRU5ErkJggg==" alt="My picture">
 
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAJ1BMVEXg4OD////h4eHa2trn5+fr6+vk5OT8/Pzd3d339/f19fXp6enz8/MLt2qjAAABbElEQVR4nO3ZwY6CMBRAUagILc7/f+8AoqIJZScx75yYjIld1JumdGrTAAAAAAAAAAAAAAAAAAAAAAAAAAD8plyVzp7e96XrkWhR8q09NHRnz/K70vyd60Wm19mz/K6+bdOlbh5y9jS/qmvboyHhmjy+cHftcmVIqChrkzJtHKUyJF6TXJbd9G9/SLwm/fqIefskbYdoMh1bypC3Q+I1adaTyDNDHjeHkpBNUr4uTV5PnmV/KdshJ03vFPd1cunKUPpnkvG+bsprSMAmTZ7Oq2uStD6FnlGiNtnI4+t/nZKb2E3uf1+r5LFSAjdJwzC/G9v2I0rcJmm+E8jvq2SW4jZJyyVKGT+TRG6ye68Utknav2qL2qSSJGyTfj+JJprMliadJlv3Pfa2L+qZrfbLaMwmfX3E/EthqCRNno/0ddsLuBBy7Znz3GdjNZn2ku7IJViSY1kRAAAAAAAAAAAAAAAAAAAAAAAAAOA3/QPqvwvIPM53tQAAAABJRU5ErkJggg==" alt="Student">
+        </section>
 
-            <div >
+            <div id="aboutMe">
+                <h2>About Me</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
 
-        </section>
+            <div id="box">box</div>
+
+        
         
         <section>
 
-            <h2>Contact Info</h2>
+            <h2 id="contact">Contact Info</h2>
         
             <ul>
                 <li><strong>Email: </strong> <a href="#">someplace@gmail.com</a></li>
