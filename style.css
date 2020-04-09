@@ -15,8 +15,31 @@ body{
     font-size: 16px;
 }
 
+.text1 {
+    animation: text 3s 1;
+}
+.text2 {
+    animation: textTwo 3s 1;
+}
+
+@keyframes text {
+    0%{
+        color: black;
+        margin-bottom: -40%;
+        letter-spacing: 25px;
+    }
+}
+@keyframes textTwo {
+    0%{
+        color: black;
+        margin-bottom: -40%;
+    }
+}
 /* Gives card padding on the top so content is not hidden behind navbar */
 .paddingTop {
+    padding-top: 90px;
+}
+.paddingTopAbout {
     padding-top: 90px;
 }
 .paddingTopHome {
@@ -25,6 +48,7 @@ body{
 .paddingLeftHome {
     padding-left: 25px;
 }
+
     
 
 /* Centralize card in the middle of the page on all screen sizes */
