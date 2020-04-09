@@ -19,6 +19,7 @@ body{
 
     .navbar-custom {
         background-color: #030303;
+        opacity: 90%;
       }
   
       /* Modify brand and text color */
