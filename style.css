@@ -16,17 +16,17 @@ body{
 }
 
 .text1 {
-    animation: text 3s 1;
+    animation: text 2s 1;
 }
 .text2 {
-    animation: textTwo 3s 1;
+    animation: textTwo 2s 1;
 }
 
 @keyframes text {
     0%{
         color: black;
         margin-bottom: -40%;
-        letter-spacing: 25px;
+        letter-spacing: 15px;
     }
 }
 @keyframes textTwo {
