@@ -24,27 +24,28 @@
 
       <div class="col">
 
-        <nav class="navbar navbar-expand-xl fixed-top navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-xl fixed-top navbar-dark navbar-custom">
 
           <div class="col-9">
-            <span class="navbar-brand mb-0 h1">Ramon Barros</span>
-          </div>
 
-          <div class="col-3">
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+              data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto floatRight">
+              <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
 
                 <li class="nav-item active">
-                  <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item active">
+                  <a class="nav-link" href="portfolio.html">Work <span class="sr-only">(current)</span></a>
                 </li>
 
                 <li class="nav-item active">
@@ -66,24 +67,16 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-md-2">
 
           <div class="col mb-4">
-            <img
-            src="./img/barhop.png"
-            class="img2" id="imgBarHop" alt="BarHop">
+            <img src="./img/barhop.png" class="img2" id="imgBarHop" alt="BarHop">
           </div>
           <div class="col mb-4">
-            <img
-            src="./img/weather.png"
-            class="img2" id="imgWeather" alt="Weather">
+            <img src="./img/weather.png" class="img2" id="imgWeather" alt="Weather">
           </div>
           <div class="col mb-4">
-            <img
-            src="./img/scheduler.png"
-            class="img2" id="imgScheduler" alt="Scheduler">
+            <img src="./img/scheduler.png" class="img2" id="imgScheduler" alt="Scheduler">
           </div>
           <div class="col mb-4">
-            <img
-            src="./img/codequiz.png"
-            class="img2" id="imgCodeQuiz" alt="Code Quiz">
+            <img src="./img/codequiz.png" class="img2" id="imgCodeQuiz" alt="Code Quiz">
           </div>
 
         </div>
@@ -92,9 +85,10 @@
 
     </div>
 
-    <footer class="footer d-flex justify-content-center">
+    <footer class="footer d-flex justify-content-center navbar-custom">
       <a href="https://github.com/ramonpbarros" target="_blank" class="fa fa-github-square"></a>
-      <a href="https://www.linkedin.com/in/ramon-barros-095b0b72/" target="_blank" class="fa fa-linkedin-square" target="_blank"></a>
+      <a href="https://www.linkedin.com/in/ramon-barros-095b0b72/" target="_blank" class="fa fa-linkedin-square"
+        target="_blank"></a>
       <p>© Copyright</p>
     </footer>
 
@@ -116,22 +110,22 @@
 
   <script>
     let barHopImg = $("#imgBarHop")
-    barHopImg.on("click", function(){
+    barHopImg.on("click", function () {
       window.location.href = "barhop.html";
     });
 
     let weatherImg = $("#imgWeather")
-    weatherImg.on("click", function(){
+    weatherImg.on("click", function () {
       window.location.href = "weather.html";
     });
 
     let schedulerImg = $("#imgScheduler")
-    schedulerImg.on("click", function(){
+    schedulerImg.on("click", function () {
       window.location.href = "scheduler.html";
     });
 
     let codeQuizImg = $("#imgCodeQuiz")
-    codeQuizImg.on("click", function(){
+    codeQuizImg.on("click", function () {
       window.location.href = "quiz.html";
     });
   </script>

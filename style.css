@@ -15,6 +15,37 @@ body{
     font-size: 16px;
 }
 
+    /* Modify the background color */
+
+    .navbar-custom {
+        background-color: #030303;
+      }
+  
+      /* Modify brand and text color */
+  
+      .navbar-custom .navbar-brand,
+      .navbar-custom .navbar-text {
+        color: white;
+      }
+  
+      /* Set the border color */
+  
+      .custom-toggler.navbar-toggler {
+        border-color: white;
+      }
+  
+      /* Setting the stroke to green using rgb values (0, 128, 0) */
+  
+      .custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+      }
+  
+      .navbar-custom .navbar-nav>.active>a,
+      .navbar-custom .navbar-nav>.active>a:hover,
+      .navbar-custom .navbar-nav>.active>a:focus {
+        color: #f0860d;
+      }
+
 .text1 {
     animation: text 2s 1;
 }
@@ -26,7 +57,7 @@ body{
     0%{
         color: black;
         margin-bottom: -40%;
-        letter-spacing: 15px;
+        letter-spacing: 25px;
     }
 }
 @keyframes textTwo {
@@ -172,5 +203,15 @@ a:hover {
 
     .fonts {
         font-family: 'Courier New', Courier, monospace;
+    }
+    .text1 {
+        animation: text 3s 1;
+    }
+    @keyframes text {
+        0%{
+            color: black;
+            margin-bottom: -200%;
+            letter-spacing: 2px;
+        }
     }
 }
