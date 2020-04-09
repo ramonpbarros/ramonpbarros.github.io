@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Ramon Barros</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="row header">
+
+            <div class="col">
+
+                <nav class="navbar navbar-expand-xl fixed-top navbar-dark bg-dark">
+
+                    <div class="col-9">
+                        <span class="navbar-brand mb-0 h1">Ramon Barros</span>
+                    </div>
+
+                    <div class="col-3">
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto floatRight">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">About <span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="portfolio.html">Portfolio <span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="contact.html">Contact <span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div class="row paddingTop no-gutters">
+
+            <div class="card text-white bg-dark mb-3" style="max-width: 700px;">
+                <div class="card-header h2">Weather Forecast</div>
+
+                <div>
+                    <img src="./img/weather.gif" class="img2 floatLeft" alt="Professional">
+
+                    <div class="card-body">
+                        <p class="card-text">Weather application allows user to get information about current weather as
+                            well as forecast of the next five consecutive days by searching cities by name. User can
+                            search weather from different cities around the world. Last searched cities will be set to
+                            local storage.</p>
+                        <p class="card-text">Project inspired by UCSD Coding Bootcamp, based on firt month of course,
+                            ultilizing OpenWeatherMap API and applying jQuery, CSS and HTML skills.</p>
+                        <p class="card-text">Technologies:</p>
+                        <p class="card-text">
+                            <ul>
+                                <li>jQuery</li>
+                                <li>OpenWeatherMap API</li>
+                                <li>JavaScript</li>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                            </ul>
+                        </p>
+                        <a href="https://ramonpbarros.github.io/weather-forecast/" target="_blank">- Deployed
+                            Version</a>
+                        <br>
+                        <a href="https://github.com/ramonpbarros/weather-forecast" target="_blank">- Repository</a>
+                        <br>
+                        <br>
+                        <button class="button">&nbspBack to Portfolio&nbsp</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer class="footer d-flex justify-content-center">
+            <a href="https://github.com/ramonpbarros" target="_blank" class="fa fa-github-square"></a>
+            <a href="https://www.linkedin.com/in/ramon-barros-095b0b72/" target="_blank" class="fa fa-linkedin-square"
+                target="_blank"></a>
+            <p>© Copyright</p>
+        </footer>
+
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script>
+        let backBtn = $(".button")
+        backBtn.on("click", function () {
+            window.location.href = "portfolio.html";
+        });
+
+
+    </script>
+</body>
+
+</html>

@@ -1,55 +1,116 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- <link rel="stylesheet" href="reset.css"> -->
-        <link rel="stylesheet" href="style.css">
-        <title>Ramon Barros</title>
-    </head>
 
-    <body>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <header class="header">
-            <h1>Ramon <span class="barros">Barros</span></h1>
-            <div>
-               <ul>
-                   <li>
-                        <a href="#aboutMe" >About Me</a>      
-                   </li>
-                   <li>
-                        <a href="#contact" >Contact</a> 
-                   </li>
-               </ul> 
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Ramon Barros</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header class="row header">
+
+      <div class="col">
+
+        <nav class="navbar navbar-expand-xl fixed-top navbar-dark bg-dark">
+
+          <div class="col-9">
+            <span class="navbar-brand mb-0 h1">Ramon Barros</span>
+          </div>
+
+          <div class="col-3">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto floatRight">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item active">
+                  <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item active">
+                  <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                </li>
+              </ul>
             </div>
-        </header>
-        
-        <section class="floatLeft">
+          </div>
+        </nav>
+      </div>
+    </header>
 
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAJ1BMVEXg4OD////h4eHa2trn5+fr6+vk5OT8/Pzd3d339/f19fXp6enz8/MLt2qjAAABbElEQVR4nO3ZwY6CMBRAUagILc7/f+8AoqIJZScx75yYjIld1JumdGrTAAAAAAAAAAAAAAAAAAAAAAAAAAD8plyVzp7e96XrkWhR8q09NHRnz/K70vyd60Wm19mz/K6+bdOlbh5y9jS/qmvboyHhmjy+cHftcmVIqChrkzJtHKUyJF6TXJbd9G9/SLwm/fqIefskbYdoMh1bypC3Q+I1adaTyDNDHjeHkpBNUr4uTV5PnmV/KdshJ03vFPd1cunKUPpnkvG+bsprSMAmTZ7Oq2uStD6FnlGiNtnI4+t/nZKb2E3uf1+r5LFSAjdJwzC/G9v2I0rcJmm+E8jvq2SW4jZJyyVKGT+TRG6ye68Utknav2qL2qSSJGyTfj+JJprMliadJlv3Pfa2L+qZrfbLaMwmfX3E/EthqCRNno/0ddsLuBBy7Znz3GdjNZn2ku7IJViSY1kRAAAAAAAAAAAAAAAAAAAAAAAAAOA3/QPqvwvIPM53tQAAAABJRU5ErkJggg==" alt="My picture">
+    <div class="row paddingTop no-gutters">
 
-        </section>
+      <div class="card text-white bg-dark mb-3" style="max-width: 700px;">
+        <div class="card-header h2">About Me</div>
 
-            <div id="aboutMe">
-                <h2>About Me</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            </div>
+        <div>
+          <img src="./img/ramon.jpg" class="imgIndex floatLeft" alt="Professional">
 
-            <div id="box">box</div>
+          <div class="card-body">
+            <p class="card-text">Web Developer leveraging a background in business to build a more intuitive user
+              experience on the web. Recently earned a certificate in Full Stack Web Development from the University of
+              California San Diego, with newly developed skills in HTML5, CSS3, JavaScript, jQuery, Bootstrap,
+              Express.js, React.js, Node.js, Database Theory, Bookshelf.js, MongoDB, MySQL, Command Line, and Git. Known
+              as a resilient and innovative problem-solver, passionate about developing apps, with a focus on
+              mobile-first design and development. With each project, my goal is to best engage my audience for an
+              impactful user-experience.</p>
+            <p class="card-text">I applied jQuery skills, as well the use of Ajax calls from two different
+              APIs(OpenBreweryDB and Google Maps), in a recent project where I worked in a team of four to develop the
+              BARHOP app that helps users locate different breweries within a certain location searching it by zip-code,
+              users are able to add their favorite breweries to their favorites tab or add specific breweries to a route
+              tab, where these breweries would be displayed on a map, making it easier to locate these business and
+              share an experience with their friends. Excited to leverage skills in the future as part of a fast-paced,
+              quality-driven team in order to build better experiences on the web.</p>
+            <a href="./img/Resume.pdf" download target="_blank">- Download Resume</a>
+          </div>
 
-        
-        
-        <section>
+        </div>
 
-            <h2 id="contact">Contact Info</h2>
-        
-            <ul>
-                <li><strong>Email: </strong> <a href="#">someplace@gmail.com</a></li>
-                <li><strong>Github: </strong> <a href="#">sampleName</a></li>
-                <li><strong>Portfolio: </strong> <a href="#">coming soon</a></li>
-            </ul>
+      </div>
 
-        </section>
+    </div>
 
-    </body>
+    <footer class="footer d-flex justify-content-center">
+      <a href="https://github.com/ramonpbarros" target="_blank" class="fa fa-github-square"></a>
+      <a href="https://www.linkedin.com/in/ramon-barros-095b0b72/" target="_blank" class="fa fa-linkedin-square"
+        target="_blank"></a>
+      <p>© Copyright</p>
+    </footer>
+
+  </div>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

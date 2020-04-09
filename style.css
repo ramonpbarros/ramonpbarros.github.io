@@ -4,82 +4,129 @@
     margin: 0;
 }
 
-html, body {
-    padding: 0;
-    margin: 0;  
-}
-
-body {
-    background-color: lightslategray;
+body{
+    background-color: snow;
+    padding-bottom:60px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .header {
-    padding: 15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(68, 66, 66);
-    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 
-.header h1 {
-    display: inline-block;
-    font-size: 35px;   
+/* Gives card padding on the top so content is not hidden behind navbar */
+.paddingTop {
+    padding-top: 90px;
 }
 
-.header h1 .barros {
-    color: lightslategray;
+/* Centralize card in the middle of the page on all screen sizes */
+.card {
+    margin: 0 auto;
 }
 
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 22px;
-}
-
-.header div ul {
-    list-style-type: none;
-}
-
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    color: #ffffff;
-    text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16px;
-}
-
-#aboutMe h2 {
-    color: #ffffff;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
-    padding-top: 10px;
-}
-
-#aboutMe p {
-    padding-top: 10px;
-}
-
-#box {
-    width: 500px;
-    height: 1500px;
-    background-color: cadetblue;
-    z-index: 999px;
-    clear: both;
-
-}
-
+/* Applied on card's image located on index.html. It makes sure image floats to the left and text is wrapped around it */
 .floatLeft {
     float: left;
-    padding-right: 10px;
+    padding-right: 20px;
+}
+
+/* Gives padding on all sides to card's image on index.html */
+.img2 {
+    height: 220px;
+    width: 350px;
+     padding:25px 25px 25px 25px;
+}
+.imgIndex {
+    height: 270px;
+    width: 350px;
+     padding:25px 25px 25px 25px;
+}
+
+.img2:hover {
+    border: solid transparent;
+}
+
+.button {
+    border-radius: 5px;
+    background-color:snow;
+    color: #353A41;
+}
+
+.button:hover {
+    background-color: grey;
+    color: snow;
+}
+ a {
+     color: snow;
+ }
+/* Makes sure the card's content on contact.html is not touching top or bottom of card */
+.contactCardPadding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #353A41;
+    color: snow;
+    padding-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Edits font amazing icons on footer */
+ .fa {
+    font-size: 50px;
+    width: 28px;
+    padding-top: 3px;
+    text-decoration: none;
+    border-radius: 50%;
+    color: snow;
+  }
+
+
+/* media screen */
+@media screen and (max-device-width: 812px) {
+
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    .header {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+    }
+
+    .paddingTop {
+        padding-top: 75px;
+    }
+
+    .floatLeft{
+        float: none;
+        padding-left: 20px;
+        margin: 0 auto;
+        
+    }
+
+    .imgBanner {
+        top: 60%;
+        background-color: snow;
+        color: #353A41;
+        text-align: center;
+        position: absolute;
+        width: 300px;
+        height: 50px;
+        left: 2%;
+        opacity: 90%;
+    }
+
+    .fonts {
+        font-family: 'Courier New', Courier, monospace;
+    }
 }
