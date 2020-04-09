@@ -5,20 +5,27 @@
 }
 
 body{
-    background-color: snow;
+    background-color: #030303;
     padding-bottom:60px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Montserrat', sans-serif;;
 }
 
 .header {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 /* Gives card padding on the top so content is not hidden behind navbar */
 .paddingTop {
     padding-top: 90px;
 }
+.paddingTopHome {
+    padding-top: 180px;
+}
+.paddingLeftHome {
+    padding-left: 25px;
+}
+    
 
 /* Centralize card in the middle of the page on all screen sizes */
 .card {
@@ -30,17 +37,16 @@ body{
     float: left;
     padding-right: 20px;
 }
-
+.imgIndex {
+    height: 300px;
+    width: 450px;
+    clear: both;
+}
 /* Gives padding on all sides to card's image on index.html */
 .img2 {
     height: 220px;
     width: 350px;
-     padding:25px 25px 25px 25px;
-}
-.imgIndex {
-    height: 270px;
-    width: 350px;
-     padding:25px 25px 25px 25px;
+    padding:25px 25px 25px 25px;
 }
 
 .img2:hover {
@@ -57,9 +63,13 @@ body{
     background-color: grey;
     color: snow;
 }
- a {
-     color: snow;
+a {
+    color: snow;
  }
+a:hover {
+    color: #f0860d;
+}
+
 /* Makes sure the card's content on contact.html is not touching top or bottom of card */
 .contactCardPadding {
     padding-top: 20px;
@@ -88,6 +98,12 @@ body{
     color: snow;
   }
 
+#webDeveloper{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Helvetica', sans-serif;
+}
+
 
 /* media screen */
 @media screen and (max-device-width: 812px) {
@@ -101,6 +117,10 @@ body{
     .header {
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;
+    }
+
+    .paddingTopHome {
+        padding-top: 90px;
     }
 
     .paddingTop {
