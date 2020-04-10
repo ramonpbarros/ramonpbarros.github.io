@@ -1,5 +1,6 @@
-# Responsive Portfolio
-> Responsive website with design that ensures that web applications render well on a variety of devices or screen sizes. 
+# Portfolio
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/ramonpbarros/readme-generator)
+> Here goes your awesome project description!
 
 ## Table of contents
 * [General info](#general-info)
@@ -12,46 +13,38 @@
 * [Contact](#contact)
 
 ## General info
-This project uses the Bootstrap CSS Framework as well as its own css file with a purpose of creating a mobile responsive portfolio. Examples of Bootstrap's grid system (containers, rows, and columns) can be found in it. The motivation to start this project was to showcase HTML and CSS skills that accomplish the main goal of creating a responsive portfolio.
+Add more general information about project. What the purpose of the project is? Motivation?
 
 ## Screenshots
-![Example screenshot one](./img/screenshotwide.png)
-![Example screenshot two](./img/screenshotmobile.png)
+![Example screenshot](./img/screenshot.png)
 
 ## Technologies
-* HTML 5
-* CSS
-* Bootstrap 4.4
+* Tech 1 - version 1.0
+* Tech 2 - version 2.0
+* Tech 3 - version 3.0
 
 ## Setup
-Repository can be found here: [GitHub/ramonpbarros](https://github.com/ramonpbarros/responsive-website)
-Make sure to git clone repository and check out the code!
+Describe how to install / setup your local environement / add link to demo version.
 
 ## Code Examples
-Examples of Bootstrap's grid system usage:
-`   <div class="row row-cols-1 row-cols-md-2 row-cols-md-2"> `
-`       <div class="col mb-4">`
-`          <img src="#" class="img" alt="...">`
-`       </div>`
-`   </div>`
+Show examples of usage:
+`put-your-code-here`
 
 ## Features
-List of features:
-* About me tab, responsive.
-* Portfolio tab with grid containing 5 images, responsive.
-* Contact tab using Bootstrap's form, responsive.  
+List of features ready and TODOs for future development
+* Awesome feature 1
+* Awesome feature 2
+* Awesome feature 3
 
-To-do list for future development:
-* Add banners to images on portfolio's tab.
-* Give action on click to these banners and direct user to different projects.
-* Get input from contact form and use it.
+To-do list:
+* Wow improvement to be done 1
+* Wow improvement to be done 2
 
 ## Status
-Project is: _in progress_
-* Checkout deployed version [here](https://ramonpbarros.github.io/responsive-website/).
+Project is: _in progress_, _finished_, _no longer continue_ and why?
 
 ## Inspiration
-Project inspired by UCSD Coding Bootcamp, based on first week of course, applying HTML and CSS skills.
+Add here credits. Project inspired by..., based on...
 
 ## Contact
-Created by [@ramonpbarros](https://github.com/ramonpbarros) - feel free to contact me!
+Created by [@ramonpbarros](https://ramonpbarros.github.io/) - feel free to contact me!
