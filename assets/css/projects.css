@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #030303;
+  padding-bottom: 60px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+/* Edits links */
+.linkOne {
+  /* View all projects*/
+  padding-top: 100px;
+  padding-left: 40px;
+  font-size: 20px;
+}
+.linkTwo {
+  /* Deployed and repository*/
+  color: #f0860d;
+  font-size: 20px;
+  padding-left: 40px;
+}
+.linkThree {
+  /* View last project*/
+  padding-left: 40px;
+  font-size: 20px;
+  float: left;
+}
+.linkFour {
+  /* View next project*/
+  padding-right: 40px;
+  font-size: 20px;
+  float: right;
+}
+.linkFive {
+  /* Let's talk*/
+  text-align: center;
+  padding-top: 3em;
+  font-size: 20px;
+  clear: both;
+  color: white;
+}
+
+/* Modify the background color */
+
+.navbar-custom {
+  background-color: #030303;
+  opacity: 90%;
+}
+
+/* Modify brand and text color */
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: #f0860d;
+}
+
+/* Set the border color */
+
+.custom-toggler.navbar-toggler {
+  border-color: white;
+}
+
+/* Setting the stroke to green using rgb values (0, 128, 0) */
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #f0860d;
+}
+.navbar-custom .navbar-nav > .inactive > a,
+.navbar-custom .navbar-nav > .inactive > a:focus {
+  color: #f0860d;
+}
+.navbar-custom .navbar-nav > .inactive > a:hover {
+  color: white;
+}
+/* Animation */
+.text1 {
+  animation: text 2s 1;
+}
+
+@keyframes text {
+  0% {
+    color: black;
+    margin-bottom: -40%;
+    letter-spacing: 25px;
+  }
+}
+
+a {
+  color: snow;
+}
+a:hover {
+  color: #f0860d;
+}
+
+/* Makes sure the card's content on contact.html is not touching top or bottom of card */
+.contactCardPadding {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  color: snow;
+  padding-top: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+/* Edits portfolio */
+
+.projectBgc {
+  width: 100%;
+  background: linear-gradient(to bottom, #1c204f 0%, #030303 100%);
+  height: 500px;
+}
+
+.gradientRightBgc {
+  width: 100%;
+  background: linear-gradient(to right, #1c204f 0%, #121211 100%);
+  height: 700px;
+}
+
+/* Edits font amazing icons on footer */
+.fa {
+  font-size: 50px;
+  width: 28px;
+  padding-top: 3px;
+  text-decoration: none;
+  border-radius: 50%;
+  color: snow;
+}
+
+#webDeveloper {
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: "Helvetica", sans-serif;
+}
+
+/* media screen */
+@media screen and (max-device-width: 900px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  .header {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+  }
+
+  .fonts {
+    font-family: "Courier New", Courier, monospace;
+  }
+  .text1 {
+    animation: text 2s 1;
+  }
+  @keyframes text {
+    0% {
+      color: black;
+      margin-bottom: -200%;
+      letter-spacing: 2px;
+    }
+  }
+}
