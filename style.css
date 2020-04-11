@@ -148,6 +148,65 @@ a:hover {
   padding-top: 15px;
   font-family: "Montserrat", sans-serif;
 }
+/* Edits portfolio */
+
+.projectBgc {
+  width: 100%;
+  background: linear-gradient(to bottom, #1c204f 0%, #030303 100%);
+  height: 500px;
+}
+
+.imgMock {
+  width: 450px;
+  height: 180px;
+  padding-right: 150px;
+  float: right;
+}
+
+.imgMock:hover {
+  border: solid transparent;
+}
+
+.barHopLogo {
+  height: 200px;
+  width: 200px;
+  padding-top: 100px;
+  padding-left: 100px;
+  float: left;
+}
+
+.barHopName {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  padding-top: 110px;
+  padding-left: 220px;
+  display: block;
+}
+
+.barHopDesc {
+  color: #f0860d;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 120px;
+  padding-left: 20px;
+}
+
+.weatherLogo {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  padding-top: 100px;
+  padding-left: 100px;
+  float: left;
+}
+.terminalLogo {
+  height: 200px;
+  width: 200px;
+  padding-top: 100px;
+  padding-left: 100px;
+  float: left;
+}
 
 /* Edits font amazing icons on footer */
 .fa {
@@ -208,7 +267,7 @@ a:hover {
     font-family: "Courier New", Courier, monospace;
   }
   .text1 {
-    animation: text 3s 1;
+    animation: text 2s 1;
   }
   @keyframes text {
     0% {
@@ -216,5 +275,50 @@ a:hover {
       margin-bottom: -200%;
       letter-spacing: 2px;
     }
+  }
+  /* Edits portfolio */
+  .barHopLogo {
+    height: 130px;
+    width: 130px;
+    padding-top: 30px;
+    padding-left: 30px;
+    float: left;
+  }
+  .barHopName {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 40px;
+    padding-left: 150px;
+    display: block;
+  }
+  .barHopDesc {
+    color: #f0860d;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 120px;
+    padding-left: 150px;
+  }
+  .imgMock {
+    width: 350px;
+    height: 220px;
+    padding-top: 60px;
+    padding-right: 90px;
+    float: right;
+  }
+  .weatherLogo {
+    height: 130px;
+    width: 130px;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-left: 30px;
+    float: left;
+  }
+  .terminalLogo {
+    height: 130px;
+    width: 130px;
+    padding-top: 30px;
+    padding-left: 30px;
+    float: left;
   }
 }
