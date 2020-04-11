@@ -26,7 +26,7 @@ body {
 
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-  color: white;
+  color: #f0860d;
 }
 
 /* Set the border color */
@@ -45,6 +45,13 @@ body {
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: #f0860d;
+}
+.navbar-custom .navbar-nav > .inactive > a,
+.navbar-custom .navbar-nav > .inactive > a:focus {
+  color: #f0860d;
+}
+.navbar-custom .navbar-nav > .inactive > a:hover {
+  color: white;
 }
 
 .text1 {
