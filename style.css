@@ -192,6 +192,14 @@ a:hover {
   padding-left: 20px;
 }
 
+.quizDesc {
+  color: #f0860d;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 120px;
+  padding-left: 20px;
+}
+
 .weatherLogo {
   height: 200px;
   width: 200px;
@@ -225,7 +233,7 @@ a:hover {
 }
 
 /* media screen */
-@media screen and (max-device-width: 812px) {
+@media screen and (max-device-width: 900px) {
   * {
     box-sizing: border-box;
     padding: 0;
@@ -298,6 +306,13 @@ a:hover {
     font-size: 20px;
     padding-top: 120px;
     padding-left: 150px;
+  }
+  .quizDesc {
+    color: #f0860d;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 120px;
+    padding-left: 20px;
   }
   .imgMock {
     width: 350px;
