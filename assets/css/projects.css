@@ -16,9 +16,17 @@ body {
 }
 .imgLogo {
   height: 150px;
-  padding-left: 40px;
   width: 150px;
+  padding-left: 40px;
   float: left;
+}
+.imgLogoTwo {
+  height: 100px;
+  width: 130px;
+  padding-left: 40px;
+  float: left;
+  border-radius: 5px;
+  margin-right: 1em;
 }
 .pName {
   color: white;
@@ -26,6 +34,14 @@ body {
   font-size: 25px;
   padding-left: 180px;
   padding-top: 50px;
+  display: block;
+}
+.pNameTwo {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  padding-left: 160px;
+  padding-top: 20px;
   display: block;
 }
 .pDesc {

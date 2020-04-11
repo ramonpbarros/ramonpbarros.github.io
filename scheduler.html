@@ -1,138 +1,172 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/projects.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-    <title>Ramon Barros</title>
-</head>
+    <title>Daily Scheduler in the Portfolio of Ramon Barros</title>
+    <style>
+      /* Modify the footer background color */
+      .navbar-custom {
+        background-color: #030303;
+      }
+      .gradientRightBgc {
+        width: 100%;
+        background: linear-gradient(to right, #1c204f 0%, #121211 100%);
+        height: 700px;
+      }
+    </style>
+  </head>
 
-<body>
+  <body>
+    <div>
+      <header class="row header">
+        <div class="col">
+          <nav
+            class="navbar navbar-expand-xl fixed-top navbar-dark navbar-custom"
+          >
+            <div class="col-9">
+              <button
+                class="navbar-toggler custom-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
 
-    <div class="container">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item inactive">
+                    <a class="nav-link" href="index.html"
+                      >Home <span class="sr-only">(current)</span></a
+                    >
+                  </li>
 
-        <header class="row header">
+                  <li class="nav-item inactive">
+                    <a class="nav-link" href="about.html"
+                      >About <span class="sr-only">(current)</span></a
+                    >
+                  </li>
 
-            <div class="col">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="portfolio.html"
+                      >Work <span class="sr-only">(current)</span></a
+                    >
+                  </li>
 
-                <nav class="navbar navbar-expand-xl fixed-top navbar-dark bg-dark">
-
-                    <div class="col-9">
-                        <span class="navbar-brand mb-0 h1">Ramon Barros</span>
-                    </div>
-
-                    <div class="col-3">
-
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto floatRight">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">About <span
-                                            class="sr-only">(current)</span></a>
-                                </li>
-
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="portfolio.html">Portfolio <span
-                                            class="sr-only">(current)</span></a>
-                                </li>
-
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="contact.html">Contact <span
-                                            class="sr-only">(current)</span></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
+                  <li class="nav-item inactive">
+                    <a class="nav-link" href="contact.html"
+                      >Contact <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
-        </header>
-
-        <div class="row paddingTop no-gutters">
-
-            <div class="card text-white bg-dark mb-3" style="max-width: 700px;">
-                <div class="card-header h2">Daily Scheduler</div>
-
-                <div>
-                    <img src="./img/schdemo.gif" class="img2 floatLeft" alt="Professional">
-
-                    <div class="card-body">
-                        <p class="card-text">Simple calendar application that allows the user to save events for each
-                            hour of the day. This app will run in the browser and feature dynamically updated HTML and
-                            CSS powered by jQuery. Daily planner sets (on the list) a different color background
-                            according to time of the day. Activities set on the planner will be saved on local storage.
-                            Displays the current day, month, and date on the top of the page.</p>
-                        <p class="card-text">Project inspired by UCSD Coding Bootcamp, based on firt month of course,
-                            ultilizing Moment.js API and applying jQuery skills.</p>
-                        <p class="card-text">Technologies:</p>
-                        <p class="card-text">
-                            <ul>
-                                <li>jQuery</li>
-                                <li>Moment.js API</li>
-                                <li>JavaScript</li>
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                            </ul>
-                        </p>
-                        <a href="https://ramonpbarros.github.io/work-day-scheduler/" target="_blank">- Deployed
-                            Version</a>
-                        <br>
-                        <a href="https://github.com/ramonpbarros/work-day-scheduler" target="_blank">- Repository</a>
-                        <br>
-                        <br>
-                        <button class="button">&nbspBack to Portfolio&nbsp</button>
-                    </div>
-
-                </div>
-
-            </div>
-
+          </nav>
         </div>
+      </header>
 
-        <footer class="footer d-flex justify-content-center">
-            <a href="https://github.com/ramonpbarros" target="_blank" class="fa fa-github-square"></a>
-            <a href="https://www.linkedin.com/in/ramon-barros-095b0b72/" target="_blank" class="fa fa-linkedin-square"
-                target="_blank"></a>
-            <p>© Copyright</p>
-        </footer>
+      <div class="projectBgc row">
+          <div class="col-6">
+                <p class="linkOne"><a href="./portfolio.html" style="color: #f0860d;">&lt; View all projects</a></p>
+                </a>
+                <img src="./img/schedule.png" alt="weatherLogo" class="imgLogoTwo"/>
+                <p class="pNameTwo">Daily Scheduler</p>
+                <p class="pDesc">Simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. Daily planner sets (on the list) a different color background according to time of the day. Activities set on the planner will be saved on local storage. Displays the current day, month, and date on the top of the page.</p>
+                <a href="https://ramonpbarros.github.io/work-day-scheduler/" target="_blank" class="linkTwo">Deployed Version ></a>
+                <br>
+                <br>
+                <a href="https://github.com/ramonpbarros/work-day-scheduler" target="_blank" class="linkTwo">Repository ></a>
+          </div>
+          <div class="col -6">
+              <img src="./img/schdemo.gif" alt="gif" class="imgGif">
+          </div>
+      </div>
+      <br/>
+      <p class="gallery">Gallery</p>
+      <br/>
+      <div class="container">
+        <div class="gradientRightBgc">
+          <img src="./img/scheduler.png" alt="scheduler" class="imgApp"/>
+           <p class="galleryName">Ramon Barros</p> 
+           <p class="galleryDesc">Design and Development</p>
+           <div style="clear: both;">
+            <p class="galleryPath" style="color: grey; padding-left: 20px; float: left; font-weight: bold; font-size: 14px;">ramonpbarros.github.io/ <span style="color: white;">barhop.html</span></p> 
+            <p class="galleryCopyright">All trademarks & copyrights belong to their respective owners.</p> 
+           </div>
+        </div>
+        <br />
+      </div>
+      <div style="padding-top: 2em;">
+          <p class="linkThree"><a href="./barhop.html" style="color: #f0860d">&lt; View last projects</a></p>
+          <p class="linkFour"><a href="./barhop.html" style="color: #f0860d">View next project &gt;</a></p>
+          <p class="linkFive">Do you like what you see? <a href="./contact.html" style="color: #f0860d">Let's talk &gt;</a></p>
+      </div>
 
+      <footer class="footer d-flex justify-content-center navbar-custom">
+        <a
+          href="https://github.com/ramonpbarros"
+          target="_blank"
+          class="fa fa-github-square"
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/ramon-barros-095b0b72/"
+          target="_blank"
+          class="fa fa-linkedin-square"
+          target="_blank"
+        ></a>
+        <p>© Copyright</p>
+      </footer>
     </div>
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
 
     <script>
-        let backBtn = $(".button")
-        backBtn.on("click", function () {
-            window.location.href = "portfolio.html";
-        });
-
-
+      let backBtn = $(".button");
+      backBtn.on("click", function () {
+        window.location.href = "portfolio.html";
+      });
     </script>
-</body>
-
+  </body>
 </html>
