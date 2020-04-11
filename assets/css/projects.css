@@ -14,9 +14,83 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
 }
+.imgLogo {
+  height: 150px;
+  padding-left: 40px;
+  width: 150px;
+  float: left;
+}
+.pName {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  padding-left: 180px;
+  padding-top: 50px;
+  display: block;
+}
+.pDesc {
+  color: white;
+  display: block;
+  font-size: 18px;
+  padding-left: 40px;
+}
+.imgGif {
+  float: right;
+  width: 600px;
+  height: 450px;
+  padding-top: 100px;
+  padding-right: 30px;
+}
+/* Gallery */
+.gallery {
+  font-size: 60px;
+  color: white;
+  padding-left: 40px;
+  font-weight: bolder;
+  clear: both;
+}
+.imgApp {
+  width: 90%;
+  height: 600px;
+  padding-top: 5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.galleryName {
+  color: white;
+  padding-left: 20px;
+  float: left;
+  font-weight: bold;
+  padding-top: 3em;
+  margin-bottom: 0px;
+}
+.galleryDesc {
+  color: white;
+  padding-right: 20px;
+  float: right;
+  font-weight: bold;
+  padding-top: 3em;
+  margin-bottom: 0px;
+}
+.galleryPath {
+  color: grey;
+  padding-left: 20px;
+  float: left;
+  font-weight: bold;
+  font-size: 14px;
+}
+.galleryCopyright {
+  color: grey;
+  padding-right: 20px;
+  float: right;
+  font-weight: bold;
+  font-size: 14px;
+}
 /* Edits links */
 .linkOne {
   /* View all projects*/
+  color: #f0860d;
   padding-top: 100px;
   padding-left: 40px;
   font-size: 20px;
@@ -104,12 +178,6 @@ a {
 }
 a:hover {
   color: #f0860d;
-}
-
-/* Makes sure the card's content on contact.html is not touching top or bottom of card */
-.contactCardPadding {
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .footer {
