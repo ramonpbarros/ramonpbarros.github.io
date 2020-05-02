@@ -54,26 +54,17 @@ body {
   color: white;
 }
 
-.text1 {
-  animation: text 2s 1;
-}
-.text2 {
-  animation: textTwo 2s 1;
+.animation {
+  animation: text 3s 1;
 }
 
 @keyframes text {
   0% {
     color: black;
-    margin-bottom: -40%;
-    letter-spacing: 25px;
+    opacity: 1%;
   }
 }
-@keyframes textTwo {
-  0% {
-    color: black;
-    margin-bottom: -40%;
-  }
-}
+
 /* Gives card padding on the top so content is not hidden behind navbar */
 .paddingTop {
   padding-top: 90px;
@@ -143,7 +134,7 @@ a:hover {
   bottom: 0;
   width: 100%;
   height: 50px;
-  background-color: #353a41;
+  background-color: #030303;
   color: snow;
   padding-top: 15px;
   font-family: "Montserrat", sans-serif;
@@ -280,16 +271,7 @@ a:hover {
   .fonts {
     font-family: "Courier New", Courier, monospace;
   }
-  .text1 {
-    animation: text 2s 1;
-  }
-  @keyframes text {
-    0% {
-      color: black;
-      margin-bottom: -200%;
-      letter-spacing: 2px;
-    }
-  }
+
   /* Edits portfolio */
   .barHopLogo {
     height: 130px;
