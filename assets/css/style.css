@@ -223,6 +223,14 @@ a:hover {
   color: snow;
 }
 
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 #webDeveloper {
   font-size: 40px;
   font-weight: bolder;
