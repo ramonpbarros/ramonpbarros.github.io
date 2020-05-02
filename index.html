@@ -23,6 +23,15 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <style>
+      .zoom {
+        transition: transform .2s; /* Animation */
+      }
+      
+      .zoom:hover {
+        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      }
+      </style>
 
     <title>Ramon Barros - Full Stack Web Developer</title>
   </head>
@@ -117,24 +126,26 @@
         >
       </div>
 
-      <!-- <img src="./img/ramon.png" class="paddingTop imgIndex" alt="Professional"> -->
-
-      <!--   </div>
-
-      </div>
-
-    </div> -->
-
       <footer class="footer d-flex justify-content-center navbar-custom">
+        <a
+        href="mailto:ramonpbarros@gmail.com"
+          target="_blank"
+          class="fa fa-envelope-o zoom"
+        ></a>
+        <a
+          href="https://www.instagram.com/ramonpbarros/"
+          target="_blank"
+          class="fa fa-instagram zoom"
+        ></a>
         <a
           href="https://github.com/ramonpbarros"
           target="_blank"
-          class="fa fa-github-square"
+          class="fa fa-github-square zoom"
         ></a>
         <a
           href="https://www.linkedin.com/in/ramon-barros-095b0b72/"
           target="_blank"
-          class="fa fa-linkedin-square"
+          class="fa fa-linkedin-square zoom"
           target="_blank"
         ></a>
         <p>© Copyright</p>
