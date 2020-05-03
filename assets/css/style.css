@@ -153,8 +153,21 @@ a:hover {
   margin-top: 10%;
 }
 
-/* Edits portfolio */
+/* Edits about.html */
+.paddingTopAbout{
+padding-top: 100px;
+}
+.profileImgAbout {
+  border: solid transparent;
+  border-radius: 50%;
+  float: right;
+  width: 500px; 
+  height: 500px; 
+  margin-right: 5%;
+  margin-top: 10%;
+}
 
+/* Edits portfolio */
 .paddingBottomPort{
   padding-bottom: 5em;
 }
@@ -305,23 +318,30 @@ a:hover {
     font-family: "Courier New", Courier, monospace;
   }
 
-/* Edits index.hml */
-.indexContainer {
-  float: left;
-  position: absolute;
-}
-.profileImg {
-  border: solid transparent;
-  border-radius: 50%;
-  float: right;
-  width: 500px; 
-  height: 500px; 
-  margin-right: 5%;
-  margin-top: 13%;
-}
+  /* Edits index.hml */
+  .indexContainer {
+    float: left;
+    position: absolute;
+  }
+  .profileImg {
+    border: solid transparent;
+    border-radius: 50%;
+    float: right;
+    width: 400px; 
+    height: 400px; 
+    margin-right: 5%;
+    margin-top: 13%;
+  }
+
+  /* Edits about.html */
+  .paddingTopAbout{
+    padding-top: 100px;
+  }
+  .profileImgAbout {
+  display: none;
+  }
 
   /* Edits portfolio */
-  
   .projectBgc {
     width: 100%;
     background: linear-gradient(to bottom, #1c204f 0%, #030303 100%);
@@ -340,7 +360,6 @@ a:hover {
     display: inline;
     margin-left: 1.5em;
   }
-
   .imgMock {
     width: 380px;
     height: 210px;
@@ -352,7 +371,6 @@ a:hover {
     -khtml-box-shadow: 6px 6px 1px rgb(30, 30, 30)30;
     transition: transform .2s;
   }
-  
   .imgMock:hover {
     transform: scale(1.05);
   }
@@ -385,7 +403,7 @@ a:hover {
     font-weight: bold;
     font-size: 20px;
   }
-  
+    
   .weatherLogo {
     height: 130px;
     width: 130px;
@@ -403,20 +421,20 @@ a:hover {
 
 /* media screen */
 @media screen and (max-device-width: 600px) {
-/* Edits index.hml */
-.indexContainer {
-  float: left;
-  position: absolute;
-}
-.profileImg {
-  border: solid transparent;
-  border-radius: 50%;
-  float: right;
-  width: 150px; 
-  height: 150px; 
-  margin-right: 5%;
-  margin-top: 13%;
-}
+  /* Edits index.hml */
+  .indexContainer {
+    float: left;
+    position: absolute;
+  }
+  .profileImg {
+    border: solid transparent;
+    border-radius: 50%;
+    float: right;
+    width: 150px; 
+    height: 150px; 
+    margin-right: 5%;
+    margin-top: 13%;
+  }
   /* Edits portfolio */
   .paddingBottomPort{
     padding-bottom: 2em;
