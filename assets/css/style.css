@@ -166,6 +166,7 @@ a:hover {
   display: inline;
   margin-left: 1em;
 }
+.short-text { display: none; }
 .projectDesc {
   color: white;
   font-weight: bold;
@@ -371,8 +372,6 @@ a:hover {
     height: 130px;
     width: 130px;
     border-radius: 10px;
-    padding-top: 30px;
-    padding-left: 30px;
     float: left;
   }
   .terminalLogo {
@@ -461,8 +460,6 @@ a:hover {
     height: 130px;
     width: 130px;
     border-radius: 10px;
-    padding-top: 30px;
-    padding-left: 30px;
     float: left;
   }
   .terminalLogo {
@@ -484,17 +481,21 @@ a:hover {
   }
 
   .barHopLogo {
-    height: 80px;
-    width: 80px;
-    float: left;
-    display: inline;
+    display: none;
   }
+  .weatherLogo {
+    display: none;
+  }
+
   .barHopName {
     color: white;
     font-weight: bold;
-    display: inline;
-    margin-left: 0.5em;
+    font-size: 45px;
+    text-align: center;
   }
+
+  .short-text { display: inline-block; }
+  .full-text { display: none; }
 
   .imgMock {
     width: 330px;
@@ -519,7 +520,7 @@ a:hover {
 
   .lead {
     margin-left: 0.5em;
-    padding-top: 2em;
+    padding-top: 1em;
     padding-bottom: 2em;
   }
 
@@ -537,22 +538,6 @@ a:hover {
     border-color: #f0860d;
     font-weight: bold;
     font-size: 20px;
-  }
-  
-  .weatherLogo {
-    height: 130px;
-    width: 130px;
-    border-radius: 10px;
-    padding-top: 30px;
-    padding-left: 30px;
-    float: left;
-  }
-  .terminalLogo {
-    height: 130px;
-    width: 130px;
-    padding-top: 30px;
-    padding-left: 30px;
-    float: left;
   }
 }
 
