@@ -312,7 +312,7 @@ a:hover {
     color: white;
     font-weight: bold;
     display: inline;
-    margin-left: 1em;
+    margin-left: 1.5em;
   }
 
   /* .quizDesc {
@@ -326,6 +326,7 @@ a:hover {
     width: 380px;
     height: 210px;
     margin-top: 1em;
+    margin-right: 10%;
     box-shadow: 6px 6px 1px rgb(30, 30, 30);
     -moz-box-shadow: 6px 6px 1px rgb(30, 30, 30);
     -webkit-box-shadow: 6px 6px 1px rgb(30, 30, 30);
@@ -341,7 +342,6 @@ a:hover {
     font-weight: bold;
     font-size: 20px;
     margin-top: 250px;
-    padding-left: 100px;
     display: block;
   }
 
@@ -377,3 +377,183 @@ a:hover {
     float: left;
   }
 }
+
+/* media screen */
+@media screen and (max-device-width: 600px) {
+  /* Edits portfolio */
+  
+  .projectBgc {
+    width: 100%;
+    background: linear-gradient(to bottom, #1c204f 0%, #030303 100%);
+    height: 650px;
+  }
+
+  .barHopLogo {
+    height: 100px;
+    width: 100px;
+    float: left;
+    display: inline;
+  }
+  .barHopName {
+    color: white;
+    font-weight: bold;
+    display: inline;
+    margin-left: 0.5em;
+  }
+
+  /* .quizDesc {
+    color: #f0860d;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 120px;
+    padding-left: 20px;
+  } */
+  .imgMock {
+    width: 330px;
+    height: 180px;
+    margin-top: 1em;
+    margin-right: 10%;
+    box-shadow: 6px 6px 1px rgb(30, 30, 30);
+    -moz-box-shadow: 6px 6px 1px rgb(30, 30, 30);
+    -webkit-box-shadow: 6px 6px 1px rgb(30, 30, 30);
+    -khtml-box-shadow: 6px 6px 1px rgb(30, 30, 30)30;
+    transition: transform .2s;
+  }
+  
+  .imgMock:hover {
+    transform: scale(1.05);
+  }
+  .projectDesc {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .lead {
+    margin-left: 0.5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
+  .barHopDesc {
+    color: #f0860d;
+    background-color: transparent;
+    border-color: #f0860d;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 0.5em;
+  }
+  .barHopDesc:hover {
+    color: white;
+    background-color: #f0860d;
+    border-color: #f0860d;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .weatherLogo {
+    height: 130px;
+    width: 130px;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-left: 30px;
+    float: left;
+  }
+  .terminalLogo {
+    height: 130px;
+    width: 130px;
+    padding-top: 30px;
+    padding-left: 30px;
+    float: left;
+  }
+}
+/* media screen */
+@media screen and (max-device-width: 420px) {
+  /* Edits portfolio */
+  
+  .projectBgc {
+    width: 100%;
+    background: linear-gradient(to bottom, #1c204f 0%, #030303 100%);
+    height: 650px;
+  }
+
+  .barHopLogo {
+    height: 120px;
+    width: 120px;
+    float: left;
+    display: inline;
+  }
+  .barHopName {
+    color: white;
+    font-weight: bold;
+    display: inline;
+    margin-left: 0.5em;
+  }
+
+  /* .quizDesc {
+    color: #f0860d;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 120px;
+    padding-left: 20px;
+  } */
+  .imgMock {
+    width: 330px;
+    height: 180px;
+    margin-top: 1em;
+    margin-right: 10%;
+    box-shadow: 6px 6px 1px rgb(30, 30, 30);
+    -moz-box-shadow: 6px 6px 1px rgb(30, 30, 30);
+    -webkit-box-shadow: 6px 6px 1px rgb(30, 30, 30);
+    -khtml-box-shadow: 6px 6px 1px rgb(30, 30, 30)30;
+    transition: transform .2s;
+  }
+  
+  .imgMock:hover {
+    transform: scale(1.05);
+  }
+  .projectDesc {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .lead {
+    margin-left: 0.5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
+  .barHopDesc {
+    color: #f0860d;
+    background-color: transparent;
+    border-color: #f0860d;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 0.5em;
+  }
+  .barHopDesc:hover {
+    color: white;
+    background-color: #f0860d;
+    border-color: #f0860d;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .weatherLogo {
+    height: 130px;
+    width: 130px;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-left: 30px;
+    float: left;
+  }
+  .terminalLogo {
+    height: 130px;
+    width: 130px;
+    padding-top: 30px;
+    padding-left: 30px;
+    float: left;
+  }
+}
+
