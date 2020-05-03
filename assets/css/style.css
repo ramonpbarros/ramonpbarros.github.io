@@ -345,6 +345,12 @@ a:hover {
     display: block;
   }
 
+  .lead {
+    margin-left: 0.5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
   .barHopDesc {
     color: #f0860d;
     background-color: transparent;
@@ -478,8 +484,8 @@ a:hover {
   }
 
   .barHopLogo {
-    height: 120px;
-    width: 120px;
+    height: 90px;
+    width: 90px;
     float: left;
     display: inline;
   }
@@ -490,18 +496,11 @@ a:hover {
     margin-left: 0.5em;
   }
 
-  /* .quizDesc {
-    color: #f0860d;
-    font-weight: bold;
-    font-size: 20px;
-    padding-top: 120px;
-    padding-left: 20px;
-  } */
   .imgMock {
     width: 330px;
     height: 180px;
     margin-top: 1em;
-    margin-right: 10%;
+    margin-right: 1%;
     box-shadow: 6px 6px 1px rgb(30, 30, 30);
     -moz-box-shadow: 6px 6px 1px rgb(30, 30, 30);
     -webkit-box-shadow: 6px 6px 1px rgb(30, 30, 30);
