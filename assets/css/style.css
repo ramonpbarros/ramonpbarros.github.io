@@ -141,6 +141,10 @@ a:hover {
 }
 /* Edits portfolio */
 
+.paddingBottomPort{
+  padding-bottom: 5em;
+}
+
 .projectBgc {
   width: 100%;
   background: linear-gradient(to bottom, #1c204f 0%, #030303 100%);
@@ -386,7 +390,10 @@ a:hover {
 /* media screen */
 @media screen and (max-device-width: 600px) {
   /* Edits portfolio */
-  
+  .paddingBottomPort{
+    padding-bottom: 2em;
+  }
+
   .projectBgc {
     width: 100%;
     background: linear-gradient(to bottom, #1c204f 0%, #030303 100%);
@@ -406,13 +413,6 @@ a:hover {
     margin-left: 0.5em;
   }
 
-  /* .quizDesc {
-    color: #f0860d;
-    font-weight: bold;
-    font-size: 20px;
-    padding-top: 120px;
-    padding-left: 20px;
-  } */
   .imgMock {
     width: 330px;
     height: 180px;
@@ -474,6 +474,10 @@ a:hover {
 @media screen and (max-device-width: 420px) {
   /* Edits portfolio */
   
+  .paddingBottomPort{
+    padding-bottom: 2em;
+  }
+
   .projectBgc {
     width: 100%;
     background: linear-gradient(to bottom, #1c204f 0%, #030303 100%);
