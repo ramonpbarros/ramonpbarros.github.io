@@ -35,8 +35,6 @@ body {
   border-color: white;
 }
 
-/* Setting the stroke to green using rgb values (0, 128, 0) */
-
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -139,6 +137,22 @@ a:hover {
   padding-top: 15px;
   font-family: "Montserrat", sans-serif;
 }
+
+/* Edits index.hml */
+.indexContainer {
+  float: left;
+  position: absolute;
+}
+.profileImg {
+  border: solid transparent;
+  border-radius: 50%;
+  float: right;
+  width: 500px; 
+  height: 500px; 
+  margin-right: 5%;
+  margin-top: 10%;
+}
+
 /* Edits portfolio */
 
 .paddingBottomPort{
@@ -208,14 +222,6 @@ a:hover {
   font-weight: bold;
   font-size: 20px;
 }
-
-/* .quizDesc {
-  color: #f0860d;
-  font-weight: bold;
-  font-size: 20px;
-  padding-top: 120px;
-  padding-left: 20px;
-} */
 
 .weatherLogo {
   height: 150px;
@@ -299,6 +305,21 @@ a:hover {
     font-family: "Courier New", Courier, monospace;
   }
 
+/* Edits index.hml */
+.indexContainer {
+  float: left;
+  position: absolute;
+}
+.profileImg {
+  border: solid transparent;
+  border-radius: 50%;
+  float: right;
+  width: 500px; 
+  height: 500px; 
+  margin-right: 5%;
+  margin-top: 13%;
+}
+
   /* Edits portfolio */
   
   .projectBgc {
@@ -320,13 +341,6 @@ a:hover {
     margin-left: 1.5em;
   }
 
-  /* .quizDesc {
-    color: #f0860d;
-    font-weight: bold;
-    font-size: 20px;
-    padding-top: 120px;
-    padding-left: 20px;
-  } */
   .imgMock {
     width: 380px;
     height: 210px;
@@ -389,6 +403,20 @@ a:hover {
 
 /* media screen */
 @media screen and (max-device-width: 600px) {
+/* Edits index.hml */
+.indexContainer {
+  float: left;
+  position: absolute;
+}
+.profileImg {
+  border: solid transparent;
+  border-radius: 50%;
+  float: right;
+  width: 150px; 
+  height: 150px; 
+  margin-right: 5%;
+  margin-top: 13%;
+}
   /* Edits portfolio */
   .paddingBottomPort{
     padding-bottom: 2em;
@@ -472,9 +500,13 @@ a:hover {
 }
 /* media screen */
 @media screen and (max-device-width: 420px) {
+  /* Edits index */
+  .profileImg{
+    display: none;
+  }
+
   /* Edits portfolio */
-  
-  .paddingBottomPort{
+  .profileImg{
     padding-bottom: 2em;
   }
 
