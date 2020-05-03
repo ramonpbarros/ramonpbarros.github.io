@@ -74,7 +74,7 @@ body {
   padding-top: 180px;
 }
 .paddingLeftHome {
-  padding-left: 25px;
+  padding-left: 20px;
 }
 
 /* Centralize card in the middle of the page on all screen sizes */
@@ -518,6 +518,10 @@ padding-top: 100px;
 }
 /* media screen */
 @media screen and (max-device-width: 420px) {
+
+  .paddingLeftHome {
+    padding-left: 0px;
+  }
   /* Edits index */
   .profileImg{
     display: none;
