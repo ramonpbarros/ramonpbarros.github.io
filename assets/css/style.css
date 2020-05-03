@@ -337,9 +337,6 @@ padding-top: 100px;
   .paddingTopAbout{
     padding-top: 100px;
   }
-  .profileImgAbout {
-  display: none;
-  }
 
   /* Edits portfolio */
   .projectBgc {
@@ -525,6 +522,19 @@ padding-top: 100px;
   /* Edits index */
   .profileImg{
     display: none;
+  }
+
+  /* Edits about */
+  .profileImgAbout {
+    border: solid transparent;
+    border-radius: 50%;
+    width: 250px; 
+    height: 250px; 
+    margin: auto;
+    margin-top: 5em;
+  }
+  .textPosition{
+    margin-top: 15em;
   }
 
   /* Edits portfolio */
