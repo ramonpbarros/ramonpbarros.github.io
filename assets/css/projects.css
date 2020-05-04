@@ -360,5 +360,7 @@ a:hover {
   }
 
   .short-text { display: inline-block; }
-  .full-text { display: none; }
+  .full-text { 
+    display: none;
+  }
 }
