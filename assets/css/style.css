@@ -550,8 +550,8 @@ padding-top: 100px;
   }
 
   /* Edits portfolio */
-  .profileImg{
-    padding-bottom: 2em;
+  .profileImgPort {
+    display: none;
   }
 
   .projectBgc {
