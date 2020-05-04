@@ -23,10 +23,19 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
 }
+
+.projectBgc {
+  width: 100%;
+  background: linear-gradient(to bottom, #1c204f 0%, #030303 100%);
+  height: 500px;
+  animation: body 2s 1;
+}
+
 .imgLogo {
   height: 150px;
   width: 150px;
-  padding-left: 40px;
+  margin-left: 2em ;
+  margin-right: 2em;
   float: left;
 }
 .imgLogoTwo {
@@ -40,10 +49,8 @@ body {
 .pName {
   color: white;
   font-weight: bold;
-  font-size: 25px;
-  padding-left: 180px;
-  padding-top: 50px;
-  display: block;
+  font-size: 30px;
+  display: inline;
 }
 .pNameTwo {
   color: white;
@@ -56,16 +63,17 @@ body {
 .pDesc {
   color: white;
   display: block;
-  font-size: 18px;
-  padding-left: 40px;
+  font-size: 20px;
+  margin-left: 3em;
 }
 .imgGif {
   float: right;
-  width: 600px;
-  height: 450px;
-  padding-top: 100px;
-  padding-right: 30px;
+  width: 500px;
+  height: 350px;
+  margin-top: 8em;
+  margin-right: 1em;
 }
+
 /* Gallery */
 .gallery {
   font-size: 60px;
@@ -216,14 +224,6 @@ a:hover {
   padding-top: 15px;
   font-family: "Montserrat", sans-serif;
 }
-/* Edits portfolio */
-
-.projectBgc {
-  width: 100%;
-  background: linear-gradient(to bottom, #1c204f 0%, #030303 100%);
-  height: 500px;
-  animation: body 2s 1;
-}
 
 .gradientRightBgc {
   width: 100%;
@@ -256,7 +256,7 @@ a:hover {
 }
 
 /* media screen */
-@media screen and (max-device-width: 900px) {
+@media screen and (max-device-width: 975px) {
   * {
     box-sizing: border-box;
     padding: 0;
@@ -281,4 +281,83 @@ a:hover {
       letter-spacing: 2px;
     }
   }
+}
+
+@media screen and (max-device-width: 600px) {
+
+}
+
+@media screen and (max-device-width: 420px) {
+  .projectBgc {
+    width: 100%;
+    background: linear-gradient(to bottom, #1c204f 0%, #030303 100%);
+    height: 500px;
+    animation: body 2s 1;
+  }
+
+  .imgLogo {
+    height: 120px;
+    width: 120px;
+    float: left;
+  }
+
+  .pName {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 2em;
+  }
+  .pDesc {
+    color: white;
+    display: block;
+    font-size: 18px;
+    margin-top: 2em;
+    clear: both;
+  }
+  .imgGif {
+    display: block;
+    width: 300px;
+    height: 180px;
+    margin: auto;
+    margin-top: 3em;
+  }
+  /* Edits gallery */
+  .gallery {
+    font-size: 60px; 
+    color: white;
+    font-weight: bolder;
+    animation: body 2s 1;
+    margin-top: 7em;
+
+  }
+  .gradientRightBgc {
+    width: 100%;
+    background: linear-gradient(to right, #1c204f 0%, #121211 100%);
+    height: 300px;
+  }
+  .imgApp {
+    width: 90%;
+    height: 240px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 2em;
+  }
+  .galleryName {
+    display: none;
+  }
+  .galleryDesc {
+    display: none;
+  }
+  .galleryPath {
+    color: grey;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 1em;
+  }
+  .galleryCopyright {
+    display: none;
+  }
+
+  .short-text { display: inline-block; }
+  .full-text { display: none; }
 }
