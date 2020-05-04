@@ -39,26 +39,18 @@ body {
   float: left;
 }
 .imgLogoTwo {
-  height: 100px;
-  width: 130px;
-  padding-left: 40px;
+  height: 150px;
+  width: 150px;
+  margin-left: 2em ;
+  margin-right: 2em;
   float: left;
-  border-radius: 5px;
-  margin-right: 1em;
+  border-radius: 10px;
 }
 .pName {
   color: white;
   font-weight: bold;
   font-size: 30px;
   display: inline;
-}
-.pNameTwo {
-  color: white;
-  font-weight: bold;
-  font-size: 25px;
-  padding-left: 160px;
-  padding-top: 20px;
-  display: block;
 }
 .pDesc {
   color: white;
@@ -137,13 +129,13 @@ body {
 }
 .linkThree {
   /* View last project*/
-  padding-left: 40px;
+  margin-left: 2em;
   font-size: 20px;
   float: left;
 }
 .linkFour {
   /* View next project*/
-  padding-right: 40px;
+  margin-right: 2em;
   font-size: 20px;
   float: right;
 }
@@ -255,6 +247,8 @@ a:hover {
   transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
+.short-text { display: none; }
+
 /* media screen */
 @media screen and (max-device-width: 975px) {
   * {
@@ -299,6 +293,13 @@ a:hover {
     height: 120px;
     width: 120px;
     float: left;
+  }
+  .imgLogoTwo {
+    height: 110px;
+    width: 110px;
+    float: left;
+    border-radius: 10px;
+    margin-bottom: 2em;
   }
 
   .pName {
