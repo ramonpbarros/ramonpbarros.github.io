@@ -166,11 +166,11 @@ padding-top: 100px;
 .profileImgAbout {
   border: solid transparent;
   border-radius: 50%;
-  float: right;
   width: 500px; 
   height: 500px; 
-  margin-right: 5%;
   margin-top: 10%;
+  margin-left: 5%;
+  position: fixed;
 }
 
 /* Edits portfolio */
@@ -216,6 +216,7 @@ padding-top: 100px;
   margin-left: 1em;
 }
 .short-text { display: none; }
+
 .projectDesc {
   color: white;
   font-weight: bold;
@@ -436,6 +437,21 @@ padding-top: 100px;
 
 /* media screen */
 @media screen and (max-device-width: 600px) {
+
+  /* Edits about */
+  .profileImgAbout {
+    border: solid transparent;
+    border-radius: 50%;
+    width: 350px; 
+    height: 350px; 
+    margin-top: 15%;
+    position: fixed;
+  }
+  
+  .indexContainer {
+    margin-top: 350px;
+    position: absolute;
+  }
   /* Edits index.hml */
   .indexContainer {
     float: left;
@@ -546,11 +562,15 @@ padding-top: 100px;
   .profileImgAbout {
     border: solid transparent;
     border-radius: 50%;
-    width: 250px; 
-    height: 250px; 
-    float: left;
-    margin-left: 15%;
-    margin-top: 5em;
+    width: 350px; 
+    height: 350px; 
+    margin-top: 15%;
+    position: fixed;
+  }
+
+  .indexContainer {
+    margin-top: 350px;
+    position: absolute;
   }
   .textPosition{
     margin-top: 15em;
