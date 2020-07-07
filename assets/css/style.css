@@ -137,11 +137,17 @@ a:hover {
   padding-top: 15px;
   font-family: "Montserrat", sans-serif;
 }
+.test {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* Edits index.hml */
 .indexContainer {
-  float: left;
-  position: absolute;
+  margin: auto;
+  text-align: center;
 }
 .profileImg {
   border: solid transparent;
@@ -200,6 +206,7 @@ padding-top: 100px;
   width: 150px;
   float: left;
   display: inline;
+  border-radius: 10px;
 }
 
 .barHopName {

@@ -37,6 +37,7 @@ body {
   margin-left: 2em ;
   margin-right: 2em;
   float: left;
+  border-radius:  10px;
 }
 .imgLogoTwo {
   height: 150px;
@@ -56,11 +57,10 @@ body {
   color: white;
   display: block;
   font-size: 20px;
-  margin-left: 3em;
 }
 .imgGif {
   float: right;
-  width: 500px;
+  width: 550px;
   height: 350px;
   margin-top: 8em;
   margin-right: 1em;
