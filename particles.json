@@ -14,7 +14,7 @@
       "type": "circle",
       "stroke": {
         "width": 0,
-        "color": "#FFFFFF"
+        "color": "#000000"
       },
       "polygon": {
         "nb_sides": 5
