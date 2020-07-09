@@ -41,7 +41,7 @@ body {
   font-size: 14px;
   font-family: 'montserrat';
   text-decoration: none;
-  margin: 30px 0;
+  margin: 30px 10px;
   border: 1px solid white;
   padding: 14px 60px;
   text-transform: uppercase;
@@ -875,6 +875,52 @@ padding-top: 100px;
 }
 /* media screen */
 @media screen and (max-device-width: 420px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    width: 100%;
+    background-color: #030303;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .btn{
+    position: relative;
+    display: block;
+    color: white;
+    font-size: 14px;
+    font-family: 'montserrat';
+    text-decoration: none;
+    margin: 30px 0;
+    border: 1px solid white;
+    padding: 14px 60px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+  }
+  .btn::before{
+    background: #f0860d;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+  }
+  
+  .btn1::before{
+    width: 0;
+    height: 100%;
+  }
+  .btn:hover::before{
+    width: 100%;
+  }
 
   .email {
     margin-top: 50%;
@@ -887,14 +933,14 @@ padding-top: 100px;
   #logo{
     position: absolute;
     width: 80%;
-    top: -50%;
+    top: -10%;
     left: 50%;
     transform:  translate(-50%, -50%);
     animation: fill 0.5s ease forwards 3.5s;
   }
 
   .paddingTopHome {
-    margin-top: 1000px;
+    margin-top: 0px;
   }
 
   .paddingLeftHome {
@@ -916,7 +962,7 @@ padding-top: 100px;
   }
 
   .indexContainer {
-    margin-top: 350px;
+    margin-top: 120px;
     position: absolute;
   }
   .textPosition{
