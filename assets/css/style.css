@@ -6,10 +6,17 @@
 
 body {
   width: 100%;
-  height: 100vh;
-  background: linear-gradient(to top right, #030303 0%, #090909 100%);
+  background-color: #030303;
   padding-bottom: 60px;
   font-family: "Montserrat", sans-serif;
+}
+
+.email {
+  margin-top: 15%;
+}
+
+.form {
+  width: 60%;
 }
 
 /* #canvas1 {
@@ -30,7 +37,7 @@ body {
 
 #letsTalk{
   position: absolute;
-  top: 30%;
+  top: 15%;
   left: 50%;
   transform:  translate(-50%, -50%);
   animation: fill 0.5s ease forwards 3.5s;
@@ -553,6 +560,15 @@ padding-top: 100px;
 
 /* media screen */
 @media screen and (max-device-width: 975px) {
+
+  .email {
+    margin-top: 25%;
+  }
+
+  .form {
+    width: 60%;
+  }
+
   * {
     box-sizing: border-box;
     padding: 0;
@@ -695,6 +711,10 @@ padding-top: 100px;
 /* media screen */
 @media screen and (max-device-width: 600px) {
 
+  .email {
+    margin-top: 40%;
+  }
+
   #logo{
     position: absolute;
     top: -30%;
@@ -818,6 +838,14 @@ padding-top: 100px;
 }
 /* media screen */
 @media screen and (max-device-width: 420px) {
+
+  .email {
+    margin-top: 50%;
+  }
+
+  .form {
+    width: 90%;
+  }
 
   #logo{
     position: absolute;
