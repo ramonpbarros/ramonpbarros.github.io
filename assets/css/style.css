@@ -34,6 +34,40 @@ body {
   height: 500px;
 } */
 
+.btn{
+  position: relative;
+  display: inline;
+  color: white;
+  font-size: 14px;
+  font-family: 'montserrat';
+  text-decoration: none;
+  margin: 30px 0;
+  border: 1px solid white;
+  padding: 14px 60px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+}
+.btn::before{
+  background: #f0860d;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 0.6s ease;
+}
+
+.btn1::before{
+  width: 0;
+  height: 100%;
+}
+.btn:hover::before{
+  width: 100%;
+}
 
 #letsTalk{
   position: absolute;
@@ -91,7 +125,7 @@ body {
 
 #portfolio{
   position: absolute;
-  top: 30%;
+  top: 15%;
   left: 50%;
   transform:  translate(-50%, -50%);
   animation: fill 0.5s ease forwards 3.5s;
@@ -150,7 +184,7 @@ body {
 
 #logo{
   position: absolute;
-  top: 20%;
+  top: 30%;
   left: 50%;
   transform:  translate(-50%, -50%);
   animation: fill 0.5s ease forwards 3.5s;
@@ -233,7 +267,7 @@ body {
 }
 #logoTwo{
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 50%;
   transform:  translate(-50%, -50%);
 }
@@ -332,13 +366,13 @@ body {
   padding-top: 90px;
 }
 .marginTopAbout {
-  margin-top: 50%;
+  margin-top: 40%;
 }
 .paddingTopHome {
-  padding-top: 150px;
+  padding-top: 180px;
 }
 .paddingLeftHome {
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 /* Centralize card in the middle of the page on all screen sizes */
@@ -430,11 +464,9 @@ padding-top: 100px;
 .profileImgAbout {
   border: solid transparent;
   border-radius: 50%;
-  width: 500px; 
-  height: 500px; 
-  margin-top: 10%;
-  margin-left: 5%;
-  position: fixed;
+  width: 400px; 
+  height: 400px; 
+  margin-top: 40%;
 }
 
 /* Edits portfolio */
@@ -454,9 +486,14 @@ padding-top: 100px;
 }
 
 .projectBgc {
-  width: 100%;
+  width:93%;
   background: linear-gradient(to bottom, #1c204f 0%, #030303 100%);
   height: 400px;
+  margin-left: 50px;
+}
+
+.jumbotron{
+  background: linear-gradient(to bottom, #1c204f 0%, #030303 100%);
 }
 
 .gradientRightBgc {
@@ -933,6 +970,11 @@ padding-top: 100px;
     color: white;
     font-weight: bold;
     font-size: 20px;
+  }
+  .projectBgc {
+    width: 100%;
+    background: linear-gradient(to bottom, #1c204f 0%, #030303 100%);
+    height: 400px;
   }
 
   .lead {

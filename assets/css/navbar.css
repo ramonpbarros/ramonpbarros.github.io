@@ -10,7 +10,7 @@
 
 body {
   background-color: #030303;
-  color: black;
+  color: #030303;
   margin: 0;
   padding: 0;
 }
@@ -39,6 +39,7 @@ main {
   background-color: var(--bg-primary);
   transition: width 600ms ease;
   overflow: visible;
+  z-index: 1;
 }
 
 .navbar-nav {
@@ -87,11 +88,11 @@ main {
 }
 
 .fa-primary {
-  color: #fcb15d;
+  color: #f0860d;
 }
 
 .fa-secondary {
-  color: #f0860d;
+  color: #fcb15d;
 }
 
 .fa-primary,
