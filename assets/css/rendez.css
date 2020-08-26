@@ -1,0 +1,94 @@
+#gallery{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform:  translate(-50%, -50%);
+  animation: fill 0.5s ease forwards 3.5s;
+}
+
+#gallery path:nth-child(2){
+  stroke-dasharray: 267.18px;
+  stroke-dashoffset: 267.18px;
+  animation: line-anim 2s ease forwards;
+}
+#gallery path:nth-child(3){
+  stroke-dasharray: 240.16px;
+  stroke-dashoffset: 240.16px;
+  animation: line-anim 2s ease forwards 0.2s;
+}
+#gallery path:nth-child(4){
+  stroke-dasharray: 117.07px;
+  stroke-dashoffset: 117.07px;
+  animation: line-anim 2s ease forwards 0.2s;
+}
+#gallery path:nth-child(5){
+  stroke-dasharray: 117.07px;
+  stroke-dashoffset: 117.07px;
+  animation: line-anim 2s ease forwards 0.2s;
+}
+#gallery path:nth-child(6){
+  stroke-dasharray: 247.52px;
+  stroke-dashoffset: 247.52px;
+  animation: line-anim 2s ease forwards 0.2s;
+}
+#gallery path:nth-child(7){
+  stroke-dasharray: 119.39px;
+  stroke-dashoffset: 119.39px;
+  animation: line-anim 2s ease forwards 0.2s;
+}
+#gallery path:nth-child(8){
+  stroke-dasharray: 222.80px;
+  stroke-dashoffset: 222.80px;
+  animation: line-anim 2s ease forwards 0.2s;
+}
+
+@keyframes line-anim{
+  to{
+    stroke-dashoffset: 0;
+  }
+}
+
+.jumbotron{
+  background: linear-gradient(to bottom, #1c204f 0%, #030303 100%);
+  height: 450px;
+  z-index: -2;
+}
+
+.btn{
+  position: relative;
+  display: inline;
+  color: white;
+  font-size: 14px;
+  font-family: 'montserrat';
+  text-decoration: none;
+  margin: 30px 10px;
+  border: 1px solid white;
+  padding: 14px 60px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+}
+.btn::before{
+  background: #f0860d;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 0.6s ease;
+}
+
+.btn1::before{
+  width: 0;
+  height: 100%;
+}
+.btn:hover::before{
+  width: 100%;
+}
+
+.gif{
+  width: 350px;
+}
