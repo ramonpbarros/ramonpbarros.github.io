@@ -125,7 +125,7 @@ body {
 
 #portfolio{
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
   transform:  translate(-50%, -50%);
   animation: fill 0.5s ease forwards 3.5s;
@@ -939,14 +939,6 @@ padding-top: 100px;
     animation: fill 0.5s ease forwards 3.5s;
   }
 
-  .marginBottomAbout {
-    margin-bottom: 2em;
-  }
-
-  .marginTopAbout {
-    margin-top: 2em;
-  }
-
   .paddingTopHome {
     margin-top: 0px;
   }
@@ -960,6 +952,14 @@ padding-top: 100px;
   }
 
   /* Edits about */
+  .marginBottomAbout {
+    margin-bottom: 2em;
+  }
+
+  .marginTopAbout {
+    margin-top: 2em;
+  }
+  
   .profileImgAbout {
     border: solid transparent;
     border-radius: 50%;
@@ -983,6 +983,10 @@ padding-top: 100px;
     display: none;
   }
 
+  .projectsText {
+    margin-top: 10em;
+  }
+
   .projectBgc {
     width: 100%;
     background: linear-gradient(to bottom, #1c204f 0%, #030303 100%);
@@ -990,7 +994,13 @@ padding-top: 100px;
   }
 
   .barHopLogo {
-    display: none;
+    /* display: none; */
+    height: 150px;
+    width: 150px;
+    margin-left: 27%;
+    margin-bottom: 1em;
+    display: block;
+    border-radius: 10px;
   }
   .weatherLogo {
     display: none;
@@ -1000,7 +1010,8 @@ padding-top: 100px;
     color: white;
     font-weight: bold;
     font-size: 45px;
-    text-align: center;
+    
+    margin-top: 1em;
   }
 
   .short-text { display: inline-block; }
@@ -1025,6 +1036,11 @@ padding-top: 100px;
     color: white;
     font-weight: bold;
     font-size: 20px;
+    margin-top: 0;
+  }
+
+  .lead {
+    text-align: center;
   }
   .projectBgc {
     width: 100%;
