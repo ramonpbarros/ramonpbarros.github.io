@@ -4,6 +4,7 @@
 
 ## Table of contents
 * [Technologies](#technologies)
+* [Screenshots](#screenshots)
 * [Features](#features)
 * [Status](#status)
 * [Contact](#contact)
@@ -11,6 +12,9 @@
 ## Technologies
 * CSS
 * HTML
+
+## Screenshots
+![Portfolio](./assets/img/portfolio.gif)
 
 ## Features
 List of features:
