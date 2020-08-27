@@ -952,7 +952,7 @@ padding-top: 100px;
   }
 
   .resumeIndex {
-    padding-bottom: 3em;
+    padding-bottom: 4em;
   }
 
   /* Edits about */
@@ -1013,7 +1013,7 @@ padding-top: 100px;
   .barHopName {
     color: white;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 1em;
   }
 
@@ -1074,7 +1074,7 @@ padding-top: 100px;
   }
 
   .form {
-    padding-bottom: 3em;
+    padding-bottom: 4em;
   }
 }
 
