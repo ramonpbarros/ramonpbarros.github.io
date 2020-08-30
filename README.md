@@ -25,6 +25,7 @@ To-do list:
 
 ## Status
 Project is: _in progress_
+* Make sure to check the web page [here](https://ramonpbarros.github.io/).
 
 ## Contact
 Created by [@ramonpbarros](https://ramonpbarros.github.io/) - feel free to contact me!
