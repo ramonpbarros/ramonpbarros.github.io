@@ -7,6 +7,7 @@
 * [Screenshots](#screenshots)
 * [Features](#features)
 * [Status](#status)
+* [Resume](#resume)
 * [Contact](#contact)
 
 ## Technologies
@@ -26,6 +27,9 @@ To-do list:
 ## Status
 Project is: _in progress_
 * Make sure to check the web page [here](https://ramonpbarros.github.io/).
+
+## Resume
+* You can see a copy of my resume [here](https://docs.google.com/document/d/1gWlAsl6RNKyNxOKceM1mjRT9TQFFIR3OWP-qy-smCNs/edit?usp=sharing).
 
 ## Contact
 Created by [@ramonpbarros](https://ramonpbarros.github.io/) - feel free to contact me!
