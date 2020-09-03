@@ -2,7 +2,10 @@ let canvas;
 let ctx;
 let canvasWidth = 1400;
 let canvasHeight = 1000;
+let ship;
 let keys = [];
+let bullets = [];
+let asteroids = [];
 
 document.addEventListener('DOMContentLoaded', SetupCanvas);
 
@@ -13,6 +16,7 @@ function SetupCanvas() {
   canvas.height = canvasHeight;
   ctx.fillStyle = 'black';
   ctx.fillRect(0,0,canvas.width, canvas.height);
+  ship = new Ship();
   document.body.addEventListener("keydown", function(e){
     keys[e.keyCode] = true;
   });
@@ -35,6 +39,8 @@ class Ship {
     this.radius = 15;
     this.angle = 0;
     this.strokeColor = 'white';
+    this.noseX = canvasWidth / 2 + 15;
+    this.noseY = canvasHeight / 2;
   }
   Rotate(dir) {
     this.angle += this.rotateSpeed * dir;
@@ -78,7 +84,12 @@ class Ship {
   }
 }
 
-let ship = new Ship();
+class Bullet {
+  constructor(angle) {
+    this.visible = true;
+    this.x = 
+  }
+}
 
 function Render() {
   ship.movingForward = (keys[87]);
