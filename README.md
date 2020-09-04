@@ -13,6 +13,7 @@
 ## Technologies
 * CSS
 * HTML
+* Javascript
 
 ## Screenshots
 ![Portfolio](./assets/img/portfolio.gif)
@@ -20,6 +21,8 @@
 ## Features
 List of features:
 * Clean design
+* Particles.js implemented
+* Asteroid game
 
 To-do list:
 * Make it completely mobile responsive
