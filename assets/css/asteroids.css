@@ -9,3 +9,13 @@ body{
   background: #000;
   border: 1px solid #FFF
 }
+.animation {
+  animation: text 2s 1;
+}
+
+@keyframes text {
+  0% {
+    color: black;
+    opacity: 1%;
+  }
+}

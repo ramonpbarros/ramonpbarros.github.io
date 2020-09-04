@@ -40,7 +40,13 @@ function SetupCanvas() {
     for(let i = 0; i < 10; i++) {
       asteroids.push(new Asteroid());
     }
-  }, 20000);
+  }, 24000);
+
+  setTimeout(function () {
+    for(let i = 0; i < 16; i++) {
+      asteroids.push(new Asteroid());
+    }
+  }, 32000);
 
   document.body.addEventListener("keydown", function(e){
     keys[e.keyCode] = true;
@@ -222,7 +228,10 @@ function Render() {
   ctx.fillStyle = 'white';
   ctx.font = '21px Arial';
   ctx.fillText('SCORE: ' + score.toString(), 20, 35);
-  ctx.fillText('Press ESC to exit game', 20, 65);
+  ctx.font = '14px Arial';
+  ctx.fillText('Press Spacebar to shoot', 20, 690);
+  ctx.fillText('A,W,D to control ship', 20, 710);
+  ctx.fillText('ESC to exit game', 20, 730);
   if(lives <= 0) {
     ship.visible = false;
     ctx.fillStyle = 'white';
@@ -230,7 +239,7 @@ function Render() {
     ctx.fillText('GAME OVER', canvasWidth / 2 - 150, canvasHeight / 2);
     setTimeout(function () {
       window.location.href = "./index.html";
-    }, 5000);
+    }, 4000);
   }
 
   if(keys[27]){
