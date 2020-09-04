@@ -17,11 +17,19 @@ function SetupCanvas() {
   ctx.fillStyle = 'black';
   ctx.fillRect(0,0,canvas.width, canvas.height);
   ship = new Ship();
+
+  for(let i = 0; i < 8; i++) {
+    asteroids.push(new Asteroid());
+  }
+
   document.body.addEventListener("keydown", function(e){
     keys[e.keyCode] = true;
   });
   document.body.addEventListener("keyup", function(e){
     keys[e.keyCode] = false;
+    if(e.keyCode === 32) {
+      bullets.push(new Bullet(ship.angle));
+    }
   });
   Render();
 }
@@ -62,8 +70,8 @@ class Ship {
     if(this.y < this.radius) {
       this.y = canvas.height;
     }
-    if(this.x > this.height) {
-      this.x = this.radius;
+    if(this.y > this.height) {
+      this.y = this.radius;
     }
     this.velX *= 0.99;
     this.velY *= 0.99;
@@ -99,7 +107,7 @@ class Bullet {
     this.velY = 0;
   }
   Update() {
-    let radians = this.angle / Math.PI * 180;
+    var radians = this.angle / Math.PI * 180;
     this.x -= Math.cos(radians) * this.speed;
     this.y -= Math.sin(radians) * this.speed;
   }
@@ -120,7 +128,7 @@ class Asteroid {
     this.strokeColor = 'white';
   }
   Update() {
-    let radians = this.angle / Math.PI * 180;
+    var radians = this.angle / Math.PI * 180;
     this.x += Math.cos(radians) * this.speed;
     this.y += Math.sin(radians) * this.speed;
     if(this.x < this.radius) {
@@ -132,16 +140,17 @@ class Asteroid {
     if(this.y < this.radius) {
       this.y = canvas.height;
     }
-    if(this.x > this.height) {
-      this.x = this.radius;
+    if(this.y > this.height) {
+      this.y = this.radius;
     }
   }
   Draw() {
     ctx.beginPath();
     let vertAngle = ((Math.PI * 2) / 6);
-    let radians = this.angle / Math.Pi * 180;
+    var radians = this.angle / Math.PI * 180;
     for(let i = 0; i < 6; i++) {
-      ctx.lineTo(this.x - this.radius * Math.cos(vertAngle * i + radians), this.y - this.radius * Math.sin(vertAngle * i + radians));
+      ctx.lineTo(this.x - this.radius * Math.cos(vertAngle * i + radians), 
+      this.y - this.radius * Math.sin(vertAngle * i + radians));
     }
     ctx.closePath();
     ctx.stroke();
@@ -159,5 +168,17 @@ function Render() {
   ctx.clearRect(0,0,canvasWidth,canvasHeight);
   ship.Update();
   ship.Draw();
+  if(bullets.length !== 0) {
+    for (let i = 0; i < bullets.length; i++) {
+      bullets[i].Update();
+      bullets[i].Draw();
+    }
+  }
+  if(asteroids.length !== 0) {
+    for (let j = 0; j < asteroids.length; j++) {
+      asteroids[j].Update();
+      asteroids[j].Draw();
+    }
+  }
   requestAnimationFrame(Render);
 }
