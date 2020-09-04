@@ -36,6 +36,12 @@ function SetupCanvas() {
     }
   }, 16000);
 
+  setTimeout(function () {
+    for(let i = 0; i < 10; i++) {
+      asteroids.push(new Asteroid());
+    }
+  }, 20000);
+
   document.body.addEventListener("keydown", function(e){
     keys[e.keyCode] = true;
   });
@@ -224,17 +230,8 @@ function Render() {
     ctx.fillText('GAME OVER', canvasWidth / 2 - 150, canvasHeight / 2);
     setTimeout(function () {
       window.location.href = "./index.html";
-    }, 2000);
+    }, 3000);
   }
-  setTimeout(function() {
-    ship.visible = false;
-    ctx.fillStyle = 'white';
-    ctx.font = '50px Arial';
-    ctx.fillText('GAME OVER', canvasWidth / 2 - 150, canvasHeight / 2);
-    setTimeout(function () {
-      window.location.href = "./index.html";
-    }, 2000);
-  }, 20000);
 
   if(keys[27]){
     window.location.href = "./index.html";
