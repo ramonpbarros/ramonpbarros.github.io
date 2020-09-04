@@ -230,7 +230,7 @@ function Render() {
     ctx.fillText('GAME OVER', canvasWidth / 2 - 150, canvasHeight / 2);
     setTimeout(function () {
       window.location.href = "./index.html";
-    }, 3000);
+    }, 5000);
   }
 
   if(keys[27]){
