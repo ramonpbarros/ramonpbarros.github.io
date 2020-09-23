@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta tags -->
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta property='og:title' content='Title of the article'/>
-
-    <meta property='og:image' content='./assets/img/ramon.png'/>
-
-    <meta property='og:description' content='Description that will show in the preview'/>
-
-    <meta property='og:url' content='https://ramonpbarros.github.io/' />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="theme-color" content="#000000"/>
+    <meta name="description" content="Portfolio created using HTML, CSS and JavaScript"/>
+    <meta property='og:title' content="Ramon Barros Portfolio"/>
+    <meta property='og:image' content="./assets/img/og-img/og-img.png"/>
+    <meta property='og:description' content="A portfolio of web-apps created by Ramon Barros"/>
+    <meta property='og:url' content="https://ramonbarros.me" />
+    
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -22,6 +20,7 @@
     />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/navbar.css" />
+    <link rel="stylesheet" href="assets/css/cursor.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
       rel="stylesheet"
@@ -34,8 +33,7 @@
       rel="shortcut icon"
       type="image/x-icon"
       href="assets/img/favicon.ico"
-    />
-
+    /> 
     <title>Ramon Barros</title>
   </head>
 
@@ -221,8 +219,11 @@
         </li>
       </ul>
     </nav>
+
+    <div class="cursor"></div>
+    <div class="cursor-lazy"></div>
     
-    <div class="col animation indexContainer " >
+    <div class="col animation indexContainer" >
         <svg
         id="logo"
         width="444"
@@ -401,9 +402,11 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
-    <script src="app.js"></script>
+    <!-- Cursor -->
+    <script src="./assets/js/index.js"></script>
     <!-- Particles  -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="./assets/js/particles.js"></script>
+
   </body>
 </html>
