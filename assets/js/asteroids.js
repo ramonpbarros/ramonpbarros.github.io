@@ -138,7 +138,7 @@ class Bullet {
     this.y -= Math.sin(radians) * this.speed;
   }
   Draw() {
-    ctx.fillStyle = 'white';
+    ctx.fillStyle = 'yellow';
     ctx.fillRect(this.x, this.y, this.width, this.height);
   }
 }
@@ -203,7 +203,7 @@ function DrawLifeShips() {
   let startX = 1350;
   let startY = 10;
   let points = [[9,9], [-9,9]];
-  ctx.strokeStyle = 'white';
+  ctx.strokeStyle = 'red';
   for (let i = 0; i < lives; i++) {
     ctx.beginPath();
     ctx.moveTo(startX, startY);
@@ -234,7 +234,7 @@ function Render() {
   ctx.fillText('ESC to exit game', 20, 730);
   if(lives <= 0) {
     ship.visible = false;
-    ctx.fillStyle = 'white';
+    ctx.fillStyle = 'red';
     ctx.font = '50px Arial';
     ctx.fillText('GAME OVER', canvasWidth / 2 - 150, canvasHeight / 2);
     setTimeout(function () {
