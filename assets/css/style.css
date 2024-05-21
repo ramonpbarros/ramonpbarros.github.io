@@ -444,8 +444,8 @@ a:hover {
   border: solid transparent;
   border-radius: 50%;
   float: right;
-  width: 500px; 
-  height: 500px; 
+  width: 500px;
+  height: 500px;
   margin-right: 5%;
   margin-top: 10%;
 }
@@ -457,8 +457,8 @@ padding-top: 100px;
 .profileImgAbout {
   border: solid transparent;
   border-radius: 50%;
-  width: 400px; 
-  height: 400px; 
+  width: 400px;
+  height: 400px;
   margin-top: 40%;
 }
 
@@ -467,8 +467,8 @@ padding-top: 100px;
   position: relative;
   border: solid transparent;
   border-radius: 50%;
-  width: 300px; 
-  height: 300px; 
+  width: 300px;
+  height: 300px;
   float: right;
   margin-right: 5%;
   margin-top: 4em;
@@ -487,6 +487,7 @@ padding-top: 100px;
 
 .jumbotron{
   background: linear-gradient(to bottom, #1c204f 0%, #030303 100%);
+  padding-bottom: 1em;
 }
 
 .gradientRightBgc {
@@ -543,7 +544,7 @@ padding-top: 100px;
 .imgMock {
   width: 400px;
   height: 230px;
-  float: right;  
+  float: right;
   box-shadow: 6px 6px 1px rgb(30, 30, 30);
   -moz-box-shadow: 6px 6px 1px rgb(30, 30, 30);
   -webkit-box-shadow: 6px 6px 1px rgb(30, 30, 30);
@@ -669,8 +670,8 @@ padding-top: 100px;
     border: solid transparent;
     border-radius: 50%;
     float: right;
-    width: 400px; 
-    height: 400px; 
+    width: 400px;
+    height: 400px;
     margin-right: 5%;
     margin-top: 13%;
   }
@@ -742,7 +743,7 @@ padding-top: 100px;
     font-weight: bold;
     font-size: 20px;
   }
-    
+
   .weatherLogo {
     height: 130px;
     width: 130px;
@@ -781,12 +782,12 @@ padding-top: 100px;
   .profileImgAbout {
     border: solid transparent;
     border-radius: 50%;
-    width: 350px; 
-    height: 350px; 
+    width: 350px;
+    height: 350px;
     margin-top: 15%;
     position: fixed;
   }
-  
+
   .indexContainer {
     margin-top: 350px;
     position: absolute;
@@ -800,8 +801,8 @@ padding-top: 100px;
     border: solid transparent;
     border-radius: 50%;
     float: right;
-    width: 150px; 
-    height: 150px; 
+    width: 150px;
+    height: 150px;
     margin-right: 5%;
     margin-top: 13%;
   }
@@ -840,7 +841,7 @@ padding-top: 100px;
     -khtml-box-shadow: 6px 6px 1px rgb(30, 30, 30)30;
     transition: transform .2s;
   }
-  
+
   .imgMock:hover {
     transform: scale(1.05);
   }
@@ -871,7 +872,7 @@ padding-top: 100px;
     font-weight: bold;
     font-size: 20px;
   }
-  
+
   .weatherLogo {
     height: 130px;
     width: 130px;
@@ -893,7 +894,7 @@ padding-top: 100px;
     padding: 0;
     margin: 0;
   }
-  
+
   body {
     width: 100%;
     background-color: #030303;
@@ -926,7 +927,7 @@ padding-top: 100px;
     z-index: -1;
     transition: all 0.6s ease;
   }
-  
+
   .btn1::before{
     width: 0;
     height: 100%;
@@ -976,12 +977,12 @@ padding-top: 100px;
   .marginTopAbout {
     margin-top: 2em;
   }
-  
+
   .profileImgAbout {
     border: solid transparent;
     border-radius: 50%;
-    width: 300px; 
-    height: 300px; 
+    width: 300px;
+    height: 300px;
     margin-left: 2em;
     margin-top: 50%;
     position: relative;
@@ -1069,7 +1070,7 @@ padding-top: 100px;
     -khtml-box-shadow: 6px 6px 1px rgb(30, 30, 30)30;
     transition: transform .2s;
   }
-  
+
   .imgMock:hover {
     transform: scale(1.05);
   }
@@ -1115,4 +1116,3 @@ padding-top: 100px;
     padding-bottom: 4em;
   }
 }
-
