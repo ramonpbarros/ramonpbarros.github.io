@@ -3,14 +3,23 @@
   <head>
     <!-- Meta tags -->
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <meta name="theme-color" content="#000000"/>
-    <meta name="description" content="Portfolio created using HTML, CSS and JavaScript"/>
-    <meta property='og:title' content="Ramon Barros Portfolio"/>
-    <meta property='og:image' content="./assets/img/og-img/og-img.png"/>
-    <meta property='og:description' content="A portfolio of web-apps created by Ramon Barros"/>
-    <meta property='og:url' content="https://ramonbarros.me" />
-    
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Portfolio created using HTML, CSS and JavaScript"
+    />
+    <meta property="og:title" content="Ramon Barros Portfolio" />
+    <meta property="og:image" content="./assets/img/og-img/og-img.png" />
+    <meta
+      property="og:description"
+      content="A portfolio of web-apps created by Ramon Barros"
+    />
+    <meta property="og:url" content="https://ramonbarros.me" />
+
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -33,8 +42,14 @@
       rel="shortcut icon"
       type="image/x-icon"
       href="assets/img/favicon.ico"
-    /> 
+    />
     <title>Ramon Barros</title>
+    <style>
+      #particles-js {
+        width: 100%;
+        height: 100vh;
+      }
+    </style>
   </head>
 
   <body>
@@ -222,9 +237,9 @@
 
     <div class="cursor"></div>
     <div class="cursor-lazy"></div>
-    
-    <div class="col animation indexContainer" >
-        <svg
+
+    <div class="col animation indexContainer">
+      <svg
         id="logo"
         width="444"
         height="62"
@@ -241,13 +256,7 @@
           height="62"
           fill="black"
         >
-          <rect
-            fill="white"
-            x="0.29599"
-            y="0.191986"
-            width="443"
-            height="62"
-          />
+          <rect fill="white" x="0.29599" y="0.191986" width="443" height="62" />
           <path
             d="M39.736 5.19999V50H35.064V29.328H7.03199V50H2.29599V5.19999H7.03199V25.168H35.064V5.19999H39.736Z"
           />
@@ -357,59 +366,106 @@
           stroke-linecap="square"
           mask="url(#path-1-outside-1)"
         />
-      </svg>      
+      </svg>
 
-      <div class="container col-lg-6 offset-lg-3" style="position: absolute; margin-top: 18%;" id="content">
-
-        <p class="full-text mt-4" style="color: white;font-size: 35px;font-weight: bolder;font-family: Montserrat;" id="webDeveloper">
+      <div
+        class="container col-lg-6 offset-lg-3"
+        style="position: absolute; margin-top: 18%"
+        id="content"
+      >
+        <p
+          class="full-text mt-4"
+          style="
+            color: white;
+            font-size: 35px;
+            font-weight: bolder;
+            font-family: Montserrat;
+          "
+          id="webDeveloper"
+        >
           Front-end Web Developer
         </p>
-        <p class="short-text" style="color: white;font-size: 50px;font-weight: bolder;font-family: Montserrat;" id="webDeveloper">
-          Front-end<br/>Web Developer
+        <p
+          class="short-text"
+          style="
+            color: white;
+            font-size: 50px;
+            font-weight: bolder;
+            font-family: Montserrat;
+          "
+          id="webDeveloper"
+        >
+          Front-end<br />Web Developer
         </p>
-        <p style="color: white; font-size: 20px;">
+        <p style="color: white; font-size: 20px">
           Passionate about developing apps.
         </p>
-        <p style="color: white; font-size: 20px;">
+        <p style="color: white; font-size: 20px">
           Building a more intuitive user experience on the web.
         </p>
-        <p class="full-text mb-5" style="color: white; font-size: 20px;">
+        <p class="full-text mb-5" style="color: white; font-size: 20px">
           Press space bar to play game.
         </p>
-        <p class="short-text" style="color: white; font-size: 20px;">
-           
-        </p>
+        <p class="short-text" style="color: white; font-size: 20px"></p>
         <div class="col text-center resumeIndex">
           <a class="btn btn1" href="./portfolio.html">Portfolio</a>
-          <a class="btn btn1" href="./assets/img/Resume.pdf" download target="_blank">Resume</a>
+          <a
+            class="btn btn1"
+            href="./assets/img/Resume.pdf"
+            download
+            target="_blank"
+            >Resume</a
+          >
         </div>
+      </div>
+
+      <!-- Particles Implementation -->
+      <div id="particles-js"></div>
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"
+      ></script>
+      <!-- Cursor -->
+      <script src="./assets/js/index.js"></script>
+      <script>
+        const cursor = document.querySelector('.cursor');
+        const cursorLazy = document.querySelector('.cursor-lazy');
+
+        document.addEventListener('mousemove', (e) => {
+          cursor.style.top = `${e.clientY}px`;
+          cursor.style.left = `${e.clientX}px`;
+          cursorLazy.style.top = `${e.clientY}px`;
+          cursorLazy.style.left = `${e.clientX}px`;
+        });
+
+        document.addEventListener('mouseout', () => {
+          cursor.style.display = 'none';
+          cursorLazy.style.display = 'none';
+        });
+
+        document.addEventListener('mouseover', () => {
+          cursor.style.display = 'block';
+          cursorLazy.style.display = 'block';
+        });
+      </script>
+
+      <!-- Particles  -->
+      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+      <script src="./assets/js/particles.js"></script>
     </div>
-
-    <!-- Particles Implementation -->
-    <div id="particles-js"></div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Cursor -->
-    <script src="./assets/js/index.js"></script>
-    <!-- Particles  -->
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="./assets/js/particles.js"></script>
-
   </body>
 </html>
