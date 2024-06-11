@@ -4,7 +4,7 @@
 
 ## Table of contents
 * [Technologies](#technologies)
-* [Screenshots](#screenshots)
+* [Gifs](#gifs)
 * [Features](#features)
 * [Status](#status)
 * [Resume](#resume)
@@ -15,7 +15,7 @@
 * HTML
 * Javascript
 
-## Screenshots
+## Gifs
 ![Portfolio](./assets/img/portfolio.gif)
 
 ## Features
